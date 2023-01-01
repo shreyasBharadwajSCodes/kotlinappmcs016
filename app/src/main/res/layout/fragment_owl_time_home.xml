@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".OwlTimeHomeFragment">
+
+    <AnalogClock
+        android:id="@+id/analogclock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/digitalclock"
+        />
+
+    <ImageView
+        android:id="@+id/image_of_owl_time_teller"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@id/digitalclock"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5"
+        android:src="@drawable/cute_owl_time_teller">
+
+    </ImageView>
+
+    <DigitalClock
+        android:id="@+id/digitalclock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:textSize="30sp" />
+
+</RelativeLayout>

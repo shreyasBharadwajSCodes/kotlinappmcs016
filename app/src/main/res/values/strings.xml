@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OWL</string>
+    <string name="roll_number">MT22MCS016</string>
+    <string name="owl_welcome">Welcome to the den of the Owl!</string>
+    <string name="owl_prompt">Enter owl to continue ....</string>
+    <string name="owl">owl</string>
+    <string-array name="owl_words">
+        <item>
+            \nWelcome to the den of the Owl!\n
+        </item>
+        <item>
+            \nOwls are wise\n
+        </item>
+        <item>
+            \nOwls are nice\n
+        </item>
+        <item>
+            \nYou are now going to set foot in the world of the owls ....\n
+        </item>
+        <item>
+            \nMany Adventures await you\n
+        </item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_teller_owl">Time Teller Owl</string>
+    <string name="enter_your_values_here">Enter your values here</string>
+    <string name="go_str">go!</string>
+    <string name="start_stop">Start/Stop</string>
+    <string name="speak">SPEAK</string>
+</resources>
